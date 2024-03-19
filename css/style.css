@@ -71,6 +71,20 @@ ul {
     padding-left: 70px;
 }
 
+li {
+    font-size: 18px;
+}
+
+span {
+    color: white;
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    font-size: 12px;
+    height: 30px;
+    border-radius: 20px;
+}
+
 .list-point-name {
     font-size: 20px;
     font-weight: bold;
@@ -82,7 +96,13 @@ ul {
 }
 
 .topic {
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.editorial {
+    background-color: rgb(15, 175, 238);
+    
 }
 /*  /STYLING LISTA  */
 
