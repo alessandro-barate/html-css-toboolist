@@ -78,11 +78,12 @@ li {
 span {
     color: white;
     display: inline-block;
-    width: 70px;
+    width: 60px;
     text-align: center;
     font-size: 12px;
-    height: 30px;
+    height: 25px;
     border-radius: 20px;
+    line-height: 25px;
 }
 
 .list-point-name {
@@ -101,8 +102,30 @@ span {
 }
 
 .editorial {
-    background-color: rgb(15, 175, 238);
-    
+    background-color: rgb(15, 175, 238);   
+}
+
+.goals {
+   background-color: blueviolet; 
+}
+
+.recruiting {
+    background-color: rgb(0, 194, 0);
+    width: 75px;
+}
+
+.mobile {
+    background-color: orange;
+    width: 55px;
+}
+
+.web {
+    background-color: rgb(241, 77, 77);
+}
+
+.sales {
+    background-color: rgb(145, 218, 28);
+    width: 50px;
 }
 /*  /STYLING LISTA  */
 
