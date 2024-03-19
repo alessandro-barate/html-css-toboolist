@@ -9,8 +9,8 @@
 
 /*  STYLING HEADER  */
 .logo-container {
-    margin-left: 20px;
-    margin-top: 10px;
+    padding: 10px 0 10px 20px;
+    background-color: white;
 }
 
 .logo, .logo-text {
@@ -22,3 +22,39 @@
     font-size: 45px;   
 }
 /*  /STYLING HEADER  */
+
+/*  STYLING CORPO PRINCIPALE  */
+body {
+    background-color: rgb(243, 243, 243);
+}
+
+.buttons-section, .list-container {
+    width: 1200px;
+    margin: 40px auto;
+    background-color: white;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.task {
+    margin-left: 30px;
+    background-color: rgb(15, 175, 238);
+    border: none;
+    color: white;
+}
+
+.section {
+    background-color: white;
+    border-color: rgb(177, 177, 177);
+    border-style: solid;
+    color: rgb(177, 177, 177);
+}
+
+
+/*  STYLING CORPO PRINCIPALE  */
