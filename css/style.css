@@ -29,6 +29,7 @@ body {
     font-family: "Yantramanav", sans-serif;
 }
 
+/*  STYLING SEZIONE BOTTONI  */
 .buttons-section, .list-container {
     width: 1200px;
     background-color: white;
@@ -36,12 +37,7 @@ body {
 
 .buttons-section {
     margin: auto;
-    margin-top: 20px;
-}
-
-.list-container {
-    margin: 5px auto;
-    padding-bottom: 20px;
+    margin-top: 40px;
 }
 
 button {
@@ -65,10 +61,17 @@ button {
     border-style: solid;
     color: rgb(177, 177, 177);
 }
+/*  /STYLING SEZIONE BOTTONI  */
 
 /*  STYLING LISTA  */
+.list-container {
+    margin: 5px auto;
+    padding-bottom: 20px;
+}
+
 ul {
     padding-left: 70px;
+    list-style-type: none;
 }
 
 li {
@@ -101,6 +104,21 @@ span {
     font-size: 25px;
 }
 
+.topic::marker {
+    content: '♨';
+    color: black;
+}
+
+li::marker {
+    content: '☑';
+    color: green;
+}
+
+.cross::marker {
+    content: '☒';  
+    color: red;
+}
+
 .editorial {
     background-color: rgb(15, 175, 238);   
 }
@@ -128,7 +146,4 @@ span {
     width: 50px;
 }
 /*  /STYLING LISTA  */
-
-
-
-/*  STYLING CORPO PRINCIPALE  */
+/*  /STYLING CORPO PRINCIPALE  */
