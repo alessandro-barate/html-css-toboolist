@@ -26,12 +26,21 @@
 /*  STYLING CORPO PRINCIPALE  */
 body {
     background-color: rgb(243, 243, 243);
+    font-family: "Yantramanav", sans-serif;
 }
 
 .buttons-section, .list-container {
     width: 1200px;
-    margin: 40px auto;
     background-color: white;
+}
+
+.buttons-section {
+    margin: auto;
+    margin-top: 20px;
+}
+
+.list-container {
+    margin: 5px auto;
 }
 
 button {
@@ -56,5 +65,12 @@ button {
     color: rgb(177, 177, 177);
 }
 
+/*  STYLING LISTA  */
+.list-point-name {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+/*  STYLING LISTA  */
 
 /*  STYLING CORPO PRINCIPALE  */
